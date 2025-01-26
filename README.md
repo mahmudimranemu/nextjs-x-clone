@@ -30,7 +30,37 @@ Socially is a Twitter clone built with modern web technologies including TypeScr
 ### Installation
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/your-username/socially.git
    cd socially
    ```
+
+2. Install dependencies:
+
+```sh
+npm install
+```
+
+3. Set up environment variables:
+   Create a
+
+```sh
+ .env
+```
+
+file in the root directory and add your PostgreSQL connection string and other necessary environment variables.
+
+4. Run database migrations:
+
+```sh
+npx prisma migrate dev
+```
+
+5. Start the development server:
+
+```sh
+npm run dev
+```
+
+Feel free to customize this README file further to suit your project's specific details and requirements.
